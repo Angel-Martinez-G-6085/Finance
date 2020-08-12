@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/lib/font.js"></script>
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:1100px)" href="./css/widescreen.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Finances</title>
+</head>
+
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo"><span class="primary-text"><i class="fas fa-book-open"></i> Edge</span>Ledger</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">The Sky Is The Limit</h1>
+            <p class="leading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi qui, ipsa minima dolorem
+                cumque laboriosam.</p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+    <!-- what we do -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="primary-text">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <div class="icon"><i class="fas fa-university fa-2x"></i></div>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id natus aspernatur eos
+                            dolorem tempore velit doloribus praesentium illo earum quam reprehenderit, deleniti corrupti
+                            provident porro, nemo placeat eligendi pariatur?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon"><i class="fas fa-book-reader fa-2x"></i></div>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id natus aspernatur eos
+                            dolorem tempore velit doloribus praesentium illo earum quam reprehenderit, deleniti corrupti
+                            provident porro, nemo placeat eligendi pariatur?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon"><i class="fas fa-pencil fa-2x"></i></div>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia id natus aspernatur eos
+                            dolorem tempore velit doloribus praesentium illo earum quam reprehenderit, deleniti corrupti
+                            provident porro, nemo placeat eligendi pariatur?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- who we are -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="primary-text">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dicta corporis eos esse facere rerum
+                numquam nisi corrupti, fugiat eum cumque, debitis laborum voluptate deserunt natus, voluptates ducimus
+                omnis sunt!</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Angel</li>
+                <li>Raul</li>
+                <li>Cesar</li>
+                <li>Rebeca</li>
+                <li>Jake</li>
+            </ul>
+        </div>
+    </section>
+    <!-- section clients -->
+    <section id="clients" class="py-1 bg-light">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="primary-text">Our</span> Clients</h2>
+            <div class="items py-1">
+                <div><img src="./images/logos/logo1.png" alt="client"></div>
+                <div><img src="./images/logos/logo2.png" alt="client"></div>
+                <div><img src="./images/logos/logo3.png" alt="client"></div>
+                <div><img src="./images/logos/logo4.png" alt="client"></div>
+                <div><img src="./images/logos/logo5.png" alt="client"></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name here">
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email here">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <input id="enviar" type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2019,ALL Rights Reserved</p>
+    </footer>
+
+    <script src="./js/lib/jquery.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2-NuzBjMLY2xgzJQcTkbq96t14D23Aao&callback=initMap""></script>
+</body>
+
+</html>
